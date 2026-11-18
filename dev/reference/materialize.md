@@ -48,7 +48,7 @@ A `dm` object of the same structure as the input.
 Called on a `dm` object, these methods create a copy of all tables in
 the `dm`. Depending on the size of your data this may take a long time.
 
-To create permament tables, first create the database schema using
+To create permanent tables, first create the database schema using
 [`copy_dm_to()`](https://dm.cynkra.com/dev/reference/copy_dm_to.md) or
 [`dm_sql()`](https://dm.cynkra.com/dev/reference/dm_sql.md), and then
 use

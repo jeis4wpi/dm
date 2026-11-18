@@ -36,7 +36,7 @@ dm_add_uk(dm, table, columns, ..., check = FALSE)
 
 ## Value
 
-An updated `dm` with an additional unqiue key.
+An updated `dm` with an additional unique key.
 
 ## Details
 

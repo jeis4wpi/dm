@@ -40,7 +40,7 @@ dm_draw(
 
 - col_attr:
 
-  Deprecated, use `colummn_types` instead.
+  Deprecated, use `column_types` instead.
 
 - view_type:
 

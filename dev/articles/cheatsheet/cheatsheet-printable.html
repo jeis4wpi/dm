@@ -137,7 +137,7 @@ Resize dm</h2>
 <p>Automatic update of dm meta-information and table relations.</p>
 
 
-<figure class="right"><img alt="diagram showing two dm objects, the third table of the one on the right has two colmns less" src="cheatsheet-figures/dm_select.svg"><figcaption><pre><code class="language-r">dm1 |&gt;
+<figure class="right"><img alt="diagram showing two dm objects, the third table of the one on the right has two columns less" src="cheatsheet-figures/dm_select.svg"><figcaption><pre><code class="language-r">dm1 |&gt;
   dm_select(df3, -c3, -c4)
 </code></pre>
 </figcaption></figure>
@@ -271,7 +271,7 @@ Cascade joins with <code>dm_flatten_to_tbl()</code>
 <p>Only direct neighbours: <code>dm_flatten_to_tbl()</code></p>
 
 
-<figure class="big"><img alt="On the left a dm object where table A is linked to table B and table C. Table D is linked to table B. On the right a table corresponding to a join of table A, B and C. Not D as it is not a direct neighboor" src="cheatsheet-figures/flatten.svg"><figcaption><pre><code class="language-r">dm1 |&gt;
+<figure class="big"><img alt="On the left a dm object where table A is linked to table B and table C. Table D is linked to table B. On the right a table corresponding to a join of table A, B and C. Not D as it is not a direct neighbour" src="cheatsheet-figures/flatten.svg"><figcaption><pre><code class="language-r">dm1 |&gt;
   dm_flatten_to_tbl(
 .start = df1
 )

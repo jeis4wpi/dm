@@ -78,7 +78,7 @@ copy_to(
 ## Details
 
 Use [`dm_get_con()`](https://dm.cynkra.com/dev/reference/dm_get_con.md)
-instead of `dm_get_src()` to get the DBI connetion for a `dm` object
+instead of `dm_get_src()` to get the DBI connection for a `dm` object
 
 Use [`[[`](https://rdrr.io/r/base/Extract.html) instead of
 [`tbl()`](https://dplyr.tidyverse.org/reference/tbl.html) to access
